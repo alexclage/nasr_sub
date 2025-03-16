@@ -1,0 +1,341 @@
+{
+    "APT DATA LAYOUT": [
+        [
+            "site_no",
+            "site_type_code"
+        ],
+        [
+            "site_no",
+            "site_type_code ",
+            "rwy_id",
+            "rwy_end_id ",
+            "arrest_device_code"
+        ],
+        [
+            "site_no",
+            "site_type_code ",
+            "sked_seq_no"
+        ],
+        [
+            "site_no",
+            "site_type_code ",
+            "title"
+        ],
+        [
+            "site_no",
+            "site_type_code ",
+            "tab_name",
+            "ref_col_name",
+            "element,"
+        ],
+        [
+            "site_no",
+            "site_type_code ",
+            "rwy_id"
+        ],
+        [
+            "site_no",
+            "site_type_code ",
+            "rwy_id",
+            "rwy_end_id"
+        ]
+    ],
+    "ARB DATA LAYOUT": [
+        [
+            "and unique key:  location _id"
+        ],
+        [
+            "location_id",
+            "type",
+            "altitude",
+            "point_seq ; unique key: rec_id"
+        ]
+    ],
+    "ATC DATA LAYOUT": [
+        [
+            "facility _id",
+            "facility_type"
+        ],
+        [
+            "site_no",
+            "site_type_code",
+            "atis_no"
+        ],
+        [
+            "facility_id ",
+            "facility_type ",
+            "ref_col_name",
+            "remark_no"
+        ],
+        [
+            "facility_id ",
+            "facility_type ",
+            "ctl_svc"
+        ]
+    ],
+    "AWOS DATA LAYOUT": [],
+    "AWY DATA LAYOUT": [
+        [
+            "and unique key:  awy_id",
+            "awy_location"
+        ],
+        [
+            "awy_id",
+            "awy_location",
+            "point_seq; unique key:  awy_id",
+            "awy_location,"
+        ],
+        [
+            "awy_id",
+            "awy_location",
+            "point_seq; unique key: awy_id",
+            " awy_location,"
+        ],
+        [
+            "awy_id",
+            "awy_location",
+            "point_seq; unique key:  awy_id,"
+        ]
+    ],
+    "CDR DATA LAYOUT": [],
+    "CLS_ARSP DATA LAYOUT": [],
+    "COM DATA LAYOUT": [],
+    "DP DATA LAYOUT": [
+        [
+            "dp_ computer_code"
+        ],
+        [
+            "dp_name",
+            "dp_computer_code",
+            "body_name",
+            "body_seq",
+            "arpt_id",
+            "rwy_end_id"
+        ],
+        [
+            "dp_name",
+            "dp_computer_code",
+            "route_portion_type",
+            "route_name,"
+        ]
+    ],
+    "FIX DATA LAYOUT": [
+        [
+            "fix _id",
+            "icao_region _code"
+        ],
+        [
+            "fix _id",
+            "icao_region_c ode",
+            "charting_type_desc"
+        ],
+        [
+            "fix _id",
+            "icao_region_code",
+            "nav_id",
+            "nav_type"
+        ]
+    ],
+    "FRQ DATA LAYOUT": [],
+    "FSS DATA LAYOUT": [
+        [
+            "fss _id"
+        ],
+        [
+            "fss _id",
+            "ref_col_name",
+            "ref_col_seq_no"
+        ]
+    ],
+    "HPF DATA LAYOUT": [
+        [
+            "hp_name ",
+            "hp_no"
+        ],
+        [
+            "hp_name",
+            "hp_no ",
+            "charting_type_desc"
+        ],
+        [
+            "hp_name",
+            "hp_no ",
+            "tab_name",
+            "ref_col_name",
+            "ref_col_seq_no"
+        ],
+        [
+            "hp_name",
+            "hp_no",
+            "speed_range ",
+            "altitude"
+        ]
+    ],
+    "ILS DATA LAYOUT": [
+        [
+            "site_no",
+            "site_type_code ",
+            "rwy_end_id"
+        ],
+        [
+            "site_no",
+            "site_type_code ",
+            "rwy_end_id"
+        ],
+        [
+            "site_no",
+            "site_type_code ",
+            "rwy_end_id"
+        ],
+        [
+            "site_no",
+            "site_type_code ",
+            "rwy_end_id",
+            "ils_comp_type_code"
+        ],
+        [
+            "site_no",
+            "site_type_code ",
+            "rwy_end_id",
+            "tab_name",
+            "ils_comp_type_code,"
+        ]
+    ],
+    "LID DATA LAYOUT": [],
+    "MAA DATA LAYOUT": [
+        [
+            "maa _id"
+        ],
+        [
+            "maa _id",
+            "f req_seq"
+        ],
+        [
+            "maa_id",
+            "tab_name",
+            "ref_col_name",
+            "ref_col_seq_no"
+        ],
+        [
+            "maa_id",
+            "point _seq"
+        ]
+    ],
+    "MIL_OPS DATA LAYOUT": [],
+    "MTR DATA LAYOUT": [
+        [
+            "route_ type_code ",
+            "route_id"
+        ],
+        [
+            "route_ type_code ",
+            "route_id ",
+            "agency_type"
+        ],
+        [
+            "route_ type_code ",
+            "route_id ",
+            "route_p t_seq *"
+        ],
+        [
+            "route_ type_code ",
+            "route_id ",
+            "sop_seq_no"
+        ],
+        [
+            "route_ type_code ",
+            "route_id ",
+            "terrain_seq_no"
+        ],
+        [
+            "route_type_code",
+            "route_id ",
+            "width_seq_no"
+        ]
+    ],
+    "NAV DATA LAYOUT": [
+        [
+            "nav_id",
+            "nav_type",
+            "country_code",
+            "city"
+        ],
+        [
+            "nav_id",
+            "nav_type",
+            "country _code",
+            "city",
+            " tab_name",
+            "ref_col_name,"
+        ],
+        [
+            "nav_id",
+            "nav_type",
+            "country _code",
+            "city ",
+            "air_ gnd_code ",
+            "brg"
+        ]
+    ],
+    "PFR DATA LAYOUT": [
+        [
+            "origin_id",
+            "dstn_id",
+            "pfr_type_code",
+            "route_no"
+        ],
+        [
+            "origin_id",
+            "dstn_id",
+            "pfr_type_code",
+            "route_no ",
+            "seg_value",
+            "next_seg"
+        ],
+        [
+            "orig",
+            "dest",
+            "t ype",
+            "seq"
+        ]
+    ],
+    "PJA DATA LAYOUT": [
+        [
+            "pja_id"
+        ],
+        [
+            "pja_id",
+            "fac_name"
+        ]
+    ],
+    "RDR DATA LAYOUT": [],
+    "STAR DATA LAYOUT": [
+        [
+            "star_computer_code"
+        ],
+        [
+            "star_computer_code",
+            "body_name",
+            "body_seq",
+            "arpt_id",
+            "rwy_end_id"
+        ],
+        [
+            "star_computer_code",
+            "route_portion_type",
+            "route_name",
+            "body_seq"
+        ]
+    ],
+    "WXL DATA LAYOUT": [
+        [
+            "wea_id",
+            "country_code"
+        ],
+        [
+            "wea_id",
+            "country_code",
+            "wea_svc_type_code"
+        ]
+    ]
+}

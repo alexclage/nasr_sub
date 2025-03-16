@@ -1,0 +1,330 @@
+{
+    "APT_ARS": [
+        "site_no",
+        "arpt_id",
+        "site_type_code",
+        "rwy_id",
+        "rwy_end_id",
+        "arrest_device_code"
+    ],
+    "APT_ATT": [
+        "site_no",
+        "site_type_code",
+        "sked_seq_no"
+    ],
+    "APT_BASE": [
+        "site_no",
+        "site_type_code"
+    ],
+    "APT_CON": [
+        "site_no",
+        "site_type_code",
+        "title"
+    ],
+    "APT_RMK": [
+        "site_no",
+        "arpt_id",
+        "site_type_code",
+        "tab_name",
+        "ref_col_name",
+        "element",
+        "ref_col_seq_no"
+    ],
+    "APT_RWY": [
+        "site_no",
+        "site_type_code",
+        "rwy_id"
+    ],
+    "APT_RWY_END": [
+        "site_no",
+        "site_type_code",
+        "rwy_id",
+        "rwy_end_id"
+    ],
+    "ARB_BASE": ["location_id"],
+    "ARB_SEG": ["rec_id"],
+    "ATC_ATIS": [
+        "site_no",
+        "site_type_code",
+        "atis_no"
+    ],
+    "ATC_BASE": [
+        "facility_type",
+        "facility_id"
+    ],
+    "ATC_RMK": [
+        "facility_type",
+        "facility_id",
+        "ref_col_name",
+        "remark_no"
+    ],
+    "ATC_SVC": [
+        "facility_type",
+        "facility_id",
+        "ctl_svc"
+    ],
+    "AWOS": [
+        "asos_awos_id",
+        "asos_awos_type"
+    ],
+    "AWY_BASE": [
+        "awy_location",
+        "awy_id"
+    ],
+    "AWY_SEG": [
+        "awy_location",
+        "awy_id",
+        "seg_value"
+    ],
+    "AWY_ALT": [
+        "awy_location",
+        "awy_id",
+        "mea_pt"
+    ],
+    "AWY_SEG_ALT": [
+        "awy_location",
+        "awy_id",
+        "from_point"
+    ],
+    "CDR": ["rcode"],
+    "CLS_ARSP": ["site_no"],
+    "COM": [
+        "comm_loc_id",
+        "comm_type",
+        "state_code",
+        "comm_outlet_name",
+        "facility_id"
+    ],
+    "DP_BASE": [
+        "dp_name",
+        "amendment_no",
+        "dp_computer_code"
+    ],
+    "DP_APT": [
+        "dp_computer_code",
+        "body_name",
+        "arpt_id",
+        "rwy_end_id"
+    ],
+    "DP_RTE": [
+        "dp_name",
+        "dp_computer_code",
+        "body_seq",
+        "point_seq",
+        "route_portion_type",
+        "route_name"
+    ],
+    "FIX_BASE": [
+        "fix_id",
+        "icao_region_code"
+    ],
+    "FIX_CHRT": [
+        "fix_id",
+        "icao_region_code",
+        "charting_type_desc"
+    ],
+    "FIX_NAV": [
+        "fix_id",
+        "icao_region_code",
+        "nav_id",
+        "nav_type"
+    ],
+    "FRQ": [
+        "facility",
+        "serviced_facility",
+        "serviced_site_type",
+        "serviced_state",
+        "freq",
+        "sectorization",
+        "freq_use"
+    ],
+    "FSS_BASE": ["fss_id"],
+    "FSS_RMK": [
+        "fss_id",
+        "ref_col_name",
+        "ref_col_seq_no"
+    ],
+    "HPF_BASE": [
+        "hp_name",
+        "hp_no"
+    ],
+    "HPF_CHRT": [
+        "hp_name",
+        "hp_no",
+        "charting_type_desc"
+    ],
+    "HPF_RMK": [
+        "hp_name",
+        "hp_no",
+        "tab_name",
+        "ref_col_name",
+        "ref_col_seq_no"
+    ],
+    "HPF_SPD_ALT": [
+        "hp_name",
+        "hp_no",
+        "speed_range",
+        "altitude"
+    ],
+    "ILS_BASE": [
+        "site_no",
+        "site_no",
+        "site_type_code",
+        "rwy_end_id"
+    ],
+    "ILS_DME": [
+        "site_no",
+        "site_type_code",
+        "rwy_end_id"
+    ],
+    "ILS_GS": [
+        "site_no",
+        "site_type_code",
+        "rwy_end_id"
+    ],
+    "ILS_MKR": [
+        "site_no",
+        "site_type_code",
+        "rwy_end_id",
+        "ils_comp_type_code"
+    ],
+    "ILS_RMK": [
+        "site_no",
+        "site_type_code",
+        "rwy_end_id",
+        "ils_comp_type_code",
+        "tab_name",
+        "ref_col_name",
+        "ref_col_seq_no"
+    ],
+    "LID": [
+        "loc_id",
+        "city",
+        "fac_type"
+    ],
+    "MAA_BASE": ["maa_id"],
+    "MAA_CON": [
+        "maa_id",
+        "freq_seq"
+    ],
+    "MAA_RMK": [
+        "maa_id",
+        "tab_name",
+        "ref_col_name",
+        "ref_col_seq_no"
+    ],
+    "MAA_SHP": [
+        "maa_id",
+        "point_seq"
+    ],
+    "MIL_OPS": [
+        "site_no",
+        "site_type_code"
+    ],
+    "MTR_BASE": [
+        "route_type_code",
+        "route_id"
+    ],
+    "MTR_AGY": [
+        "route_type_code",
+        "route_id",
+        "agency_type"
+    ],
+    "MTR_PT": [
+        "route_type_code",
+        "route_id",
+        "route_pt_id"
+    ],
+    "MTR_SOP": [
+        "route_type_code",
+        "route_id",
+        "sop_seq_no"
+    ],
+    "MTR_TERR": [
+        "route_type_code",
+        "route_id",
+        "terrain_seq_no"
+    ],
+    "MTR_WDTH": [
+        "route_type_code",
+        "route_id",
+        "width_seq_no"
+    ],
+    "NAV_BASE": [
+        "nav_id",
+        "nav_type",
+        "city",
+        "country_code"
+    ],
+    "NAV_CKPT": [
+        "nav_id",
+        "nav_type",
+        "city",
+        "country_code",
+        "brg",
+        "air_gnd_code"
+    ],
+    "NAV_RMK": [
+        "nav_id",
+        "nav_type",
+        "ref_col_seq_no",
+        "city",
+        "country_code",
+        "tab_name",
+        "ref_col_name"
+    ],
+    "PFR_BASE": [
+        "origin_id",
+        "dstn_id",
+        "pfr_type_code",
+        "route_no"
+    ],
+    "PFR_SEG": [
+        "origin_id",
+        "dstn_id",
+        "pfr_type_code",
+        "route_no",
+        "seg_value",
+        "next_seg"
+    ],
+    "PFR_RMT_FMT": [
+        "orig",
+        "dest",
+        "type",
+        "seq"
+    ],
+    "PJA_BASE": ["pja_id"],
+    "PJA_CON": [
+        "pja_id",
+        "fac_name"
+    ],
+    "RDR": [
+        "facility_id",
+        "country_code",
+        "radar_no"
+    ],
+    "STAR_BASE": ["star_computer_code"],
+    "STAR_APT": [
+        "star_computer_code",
+        "body_name",
+        "body_seq",
+        "arpt_id",
+        "rwy_end_id"
+    ],
+    "STAR_RTE": [
+        "star_computer_code",
+        "route_portion_type",
+        "route_name",
+        "body_seq",
+        "point_seq"
+    ],
+    "WXL_BASE": [
+        "wea_id",
+        "country_code"
+    ],
+    "WXL_SVC": [
+        "wea_id",
+        "country_code",
+        "wea_svc_type_code"
+    ]
+}

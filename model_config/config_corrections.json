@@ -1,0 +1,32 @@
+{
+    "AWY_SEG_ALT": {
+        "next_mea_pt":{
+            "Nullable": "Yes"
+        }
+    },
+    "HPF_BASE": {
+        "country_code": {
+            "Nullable": "Yes"
+        }
+    },
+    "HPF_CHRT": {
+        "country_code": {
+            "Nullable": "Yes"
+        }
+    },
+    "HPF_RMK": {
+        "country_code": {
+            "Nullable": "Yes"
+        }
+    },
+    "HPF_SPD_ALT": {
+        "country_code": {
+            "Nullable": "Yes"
+        }
+    },
+    "MTR_PT": {
+        "route_pt_id": {
+            "Nullable": "Yes"
+        }
+    }
+}

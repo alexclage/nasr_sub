@@ -1,0 +1,28 @@
+2025-02-23 09:11:45 INFO     data_retrieve.scraper 	 Successfully retrieved NASR page
+2025-02-24 08:21:18 INFO     data_retrieve.scraper 	 Successfully retrieved NASR page
+2025-02-24 09:44:35 INFO     data_retrieve.scraper 	 Successfully retrieved NASR page
+2025-02-25 06:30:55 INFO     data_retrieve.scraper 	 Successfully retrieved NASR page
+2025-02-25 09:30:35 INFO     data_retrieve.scraper 	 Successfully retrieved NASR page
+2025-02-27 17:25:48 INFO     data_retrieve.scraper 	 Successfully retrieved NASR page
+2025-02-28 10:59:09 INFO     data_retrieve.scraper 	 Successfully retrieved NASR page
+2025-03-01 09:13:12 INFO     data_retrieve.scraper 	 Successfully retrieved NASR page
+2025-03-04 07:34:26 INFO     data_retrieve.scraper 	 Successfully retrieved NASR page
+2025-03-05 09:49:09 INFO     data_retrieve.scraper 	 Successfully retrieved NASR page
+2025-03-06 09:42:56 INFO     data_retrieve.scraper 	 Successfully retrieved NASR page
+2025-03-06 10:27:48 INFO     data_retrieve.scraper 	 Successfully retrieved NASR page
+2025-03-07 14:27:53 ERROR    data_retrieve.scraper 	 Error in retrieving page and making soup
+HTTPSConnectionPool(host='www.faa.gov', port=443): Max retries exceeded with url: /air_traffic/flight_info/aeronav/aero_data/NASR_Subscription/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001DE5059CEB0>: Failed to resolve 'www.faa.gov' ([Errno 11001] getaddrinfo failed)"))
+2025-03-07 14:27:53 INFO     data_retrieve.scraper 	 Successfully retrieved NASR page
+2025-03-10 08:41:47 INFO     data_retrieve.scraper 	 Successfully retrieved NASR page
+2025-03-10 09:00:08 INFO     data_retrieve.scraper 	 Successfully retrieved NASR page
+2025-03-11 09:16:39 INFO     data_retrieve.scraper 	 Successfully retrieved NASR page
+2025-03-12 00:06:50 INFO     data_retrieve.scraper 	 Successfully retrieved NASR page
+2025-03-12 09:59:08 INFO     data_retrieve.scraper 	 Successfully retrieved NASR page
+2025-03-12 10:01:20 INFO     data_retrieve.scraper 	 Successfully retrieved NASR page
+2025-03-13 00:02:33 INFO     data_retrieve.scraper 	 Successfully retrieved NASR page
+2025-03-13 10:08:07 INFO     data_retrieve.scraper 	 Successfully retrieved NASR page
+2025-03-14 13:33:44 INFO     data_retrieve.scraper 	 Successfully retrieved NASR page
+2025-03-14 14:26:57 INFO     data_retrieve.scraper 	 Successfully retrieved NASR page
+2025-03-15 10:14:32 INFO     data_retrieve.scraper 	 Successfully retrieved NASR page
+2025-03-16 08:02:17 INFO     data_retrieve.scraper 	 Successfully retrieved NASR page
+2025-03-16 09:48:13 INFO     data_retrieve.scraper 	 Successfully retrieved NASR page

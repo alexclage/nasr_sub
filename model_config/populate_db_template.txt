@@ -1,0 +1,69 @@
+from data_retrieve.csv_reader import CSVReader
+from dotenv import load_dotenv
+load_dotenv()
+import os
+
+# import all models from nav_data/models
+
+import models
+
+def create_rows(file: str) -> list:
+
+    """
+    Returns a list of the respective model objects from rows of data within
+    the .csv file
+    Committing the rows to the database should be added separately for logging and 
+    separation of responsibilities
+    """
+
+    # returnable list that will house model objects for each
+    # row in .csv
+
+    models = []
+    
+    # create dicts for data in .csv utilizing data_retrieve.csv_reader class
+
+    csv_reader = CSVReader(os.environ['zip_loc'] + file)
+    data = csv_reader.read_csv()
+
+    # Model name is filename stripped of '.csv'
+
+    model_name = file.strip(".csv")
+
+    # loop through data rows in dict
+
+    for row in data:
+
+        # get model instance from model instance dictionary
+
+        model = getattr(models, model_name)
+
+        # loop through column names from data and setattr the model with the values
+
+        for column_name, value in row.items():
+
+            # reformat column name as .csv is all caps
+            column_name = column_name.lower()
+
+            # set attribute of model to value in .csv
+            setattr(model, column_name, value)
+
+            # append to return list
+            models.append(model)
+
+
+
+if __name__ == "__main__":
+
+    # Loop through files in models dir
+
+    for file in os.listdir(os.environ['zip_loc']):
+
+        # eliminate all files that aren't data filled .csv files
+
+        if file.endswith(".csv") and "DATA_STRUCTURE" not in file:
+
+            # data_rows stores a list of model instances that have
+            # NOT been committed to their respective tables.
+
+            data_rows: list = create_rows(file)

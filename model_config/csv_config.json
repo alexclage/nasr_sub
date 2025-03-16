@@ -1,0 +1,16 @@
+{
+    "CDR": [
+        "RCode",
+        "Orig",
+        "Dest",
+        "DepFix",
+        "Route_String",
+        "DCNTR",
+        "ACNTR",
+        "TCNTRs",
+        "CoordReq",
+        "Play",
+        "NavEqp",
+        "Length"
+    ]
+}
