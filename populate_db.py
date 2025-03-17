@@ -16,7 +16,7 @@ from sqlalchemy.orm import Session
 logger = logging.getLogger(__name__)
 
 logging.basicConfig(
-    filename="C:/Users/alexm/Code/development/airplane/nav_data/logs/db_logs/data_input.log",
+    filename="./logs/db_logs/data_input.log",
     format='%(asctime)s %(levelname)-8s %(name)s \t %(message)s',
     level=logging.INFO,
     datefmt='%Y-%m-%d %H:%M:%S'

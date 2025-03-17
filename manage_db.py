@@ -9,7 +9,7 @@ import os
 from tools.file_manager import file_deleter
 
 logging.basicConfig(
-    filename="C:/Users/alexm/Code/development/airplane/nav_data/logs/db_logs/db_manager.log",
+    filename="/logs/db_logs/db_manager.log",
     format='%(asctime)s %(levelname)-8s %(name)s \t %(message)s',
     level=logging.INFO,
     datefmt='%Y-%m-%d %H:%M:%S'
